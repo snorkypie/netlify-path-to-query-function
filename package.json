@@ -1,0 +1,14 @@
+{
+  "name": "path-to-query-functions",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build src/api",
+    "dev": "netlify dev"
+  },
+  "devDependencies": {
+    "@octokit/core": "^3.2.5",
+    "netlify-cli": "^3.6.0",
+    "netlify-lambda": "^2.0.3"
+  }
+}
