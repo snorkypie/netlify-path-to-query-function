@@ -6,6 +6,9 @@ export async function handler(event) {
     headers: {
       'Cache-Control': 'max-age=365000000,immutable',
     },
-    body: `Hello, ${name || 'World'}. ${new Date().toISOString()}\n`,
+    body: {
+      msg: `Hello, ${name || 'World'}. ${new Date().toISOString()}\n`,
+      params: event.queryStringParameters,
+    },
   };
 }
