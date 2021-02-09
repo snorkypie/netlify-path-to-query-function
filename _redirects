@@ -1,1 +1,1 @@
-/api/:name/* /.netlify/functions/:splat?name=:name 200
+/api/* name=:name /.netlify/functions/:splat 200
