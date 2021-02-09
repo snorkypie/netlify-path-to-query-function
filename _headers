@@ -1,0 +1,2 @@
+/api/hello
+  cache-control: max-age=36500000, immutable

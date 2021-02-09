@@ -3,9 +3,6 @@ export async function handler(event) {
 
   return {
     statusCode: 200,
-    headers: {
-      'Cache-Control': 'max-age=365000000,immutable',
-    },
     body:
       JSON.stringify(
         {
